@@ -11,6 +11,6 @@ position = Vector2( -95, 17 )
 
 [node name="Spiller" parent="." index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 599.189, 333.129 )
+position = Vector2( 415.111, 530.239 )
 
 
