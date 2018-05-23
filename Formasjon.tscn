@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Formasjon.gd" type="Script" id=1]
+[ext_resource path="res://Fiende.tscn" type="PackedScene" id=2]
+
+[node name="Formasjon" type="Node2D"]
+
+script = ExtResource( 1 )
+speed = 100
+
+[node name="Fiende1" parent="." index="0" instance=ExtResource( 2 )]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="Fiende2" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 140, -140 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Fiende3" parent="." index="2" instance=ExtResource( 2 )]
+
+position = Vector2( -140, -140 )
+_sections_unfolded = [ "Transform" ]
+
+
